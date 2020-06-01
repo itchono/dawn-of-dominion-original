@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{006F7140-9AAC-4E1C-A324-279FA2AA065B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Dawn_of_Dominion.My.MyApplication</StartupObject>
+    <RootNamespace>Dawn_of_Dominion</RootNamespace>
+    <AssemblyName>Dawn of Dominion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Dawn of Dominion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Dawn of Dominion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blackout.Designer.vb">
+      <DependentUpon>Blackout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blackout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cutscene.Designer.vb">
+      <DependentUpon>Cutscene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cutscene.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugConsole.Designer.vb">
+      <DependentUpon>DebugConsole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DebugConsole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameAI.vb" />
+    <Compile Include="GameMode.Designer.vb">
+      <DependentUpon>GameMode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameMode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameReview.Designer.vb">
+      <DependentUpon>GameReview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameReview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalItems.vb" />
+    <Compile Include="IntroSplash.Designer.vb">
+      <DependentUpon>IntroSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntroSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapSelect.Designer.vb">
+      <DependentUpon>MapSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissionSelect.Designer.vb">
+      <DependentUpon>MissionSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MissionSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SPlayerIntro.Designer.vb">
+      <DependentUpon>SPlayerIntro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPlayerIntro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.vb">
+      <DependentUpon>Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.vb">
+      <DependentUpon>Shop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsAchievements.Designer.vb">
+      <DependentUpon>StatsAchievements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StatsAchievements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tutorial.Designer.vb">
+      <DependentUpon>Tutorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Blackout.resx">
+      <DependentUpon>Blackout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cutscene.resx">
+      <DependentUpon>Cutscene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugConsole.resx">
+      <DependentUpon>DebugConsole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameMode.dje-NE.resx">
+      <DependentUpon>GameMode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameMode.resx">
+      <DependentUpon>GameMode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameReview.resx">
+      <DependentUpon>GameReview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroSplash.resx">
+      <DependentUpon>IntroSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainmenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapSelect.resx">
+      <DependentUpon>MapSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissionSelect.resx">
+      <DependentUpon>MissionSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPlayerIntro.resx">
+      <DependentUpon>SPlayerIntro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsAchievements.resx">
+      <DependentUpon>StatsAchievements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial.resx">
+      <DependentUpon>Tutorial.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphic_ShotMiss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphic_Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_ArenaCommander.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_Challenger.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_Javelin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_MainTheme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_Select.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_SPlayerIntro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music_SQ42THEME.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\Graphic_StaticBG.jpg" />
+    <None Include="Resources\Graphic_StaticGlieseNow.jpg" />
+    <None Include="Resources\Music_Fail.wav" />
+    <None Include="Resources\Graphic_Title.png" />
+    <None Include="Resources\Graphic_StaticGliesePast.jpg" />
+    <None Include="Resources\Music_MissionComplete.wav" />
+    <None Include="Resources\Graphic_WarScape3.jpg" />
+    <None Include="Resources\Graphic_WarScape2.jpg" />
+    <None Include="Resources\Tutorial8.jpg" />
+    <None Include="Resources\Tutorial7.jpg" />
+    <None Include="Resources\Tutorial6.jpg" />
+    <None Include="Resources\Tutorial5.jpg" />
+    <None Include="Resources\Tutorial4.jpg" />
+    <None Include="Resources\Tutorial3.jpg" />
+    <None Include="Resources\Tutorial2.jpg" />
+    <None Include="Resources\Tutorial1-5.jpg" />
+    <None Include="Resources\Tutorial1.jpg" />
+    <None Include="Resources\Graphic_Illuminated.png" />
+    <None Include="Resources\Graphic_HeatSig.png" />
+    <None Include="Resources\Graphic_WarScape1.jpg" />
+    <None Include="Resources\Anim_GliesePast.gif" />
+    <None Include="Resources\Anim_GlieseNow.gif" />
+    <None Include="Resources\Graphic_SunFullSet.jpg" />
+    <None Include="Resources\Graphic_LandScapeMan.jpg" />
+    <None Include="Resources\Graphic_LandScape.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

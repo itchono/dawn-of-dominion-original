@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="FadeSpeed" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.04</Value>
+    </Setting>
+    <Setting Name="Sound" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DevMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SaveState" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="SaveUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Animations" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="StatDDealt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StatDTaken" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StatMoneySpent" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StatUnitsPlaced" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StatUnitsDestroyed" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Achievements" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AmbassadorFalse/Ambassador|HeroFalse/Hero|YOLOFalse/YOLO|Not Even a ScratchFalse/Not Even a Scratch|Grand TourFalse/Grand Tour|I am a h4ck3rFalse/I am a h4ck3r|AdvancedFalse/Advanced|</Value>
+    </Setting>
+    <Setting Name="MapsPlayed" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M0False/M0|M1False/M1|M2False/M2|M3False/M3|M4False/M4|M5False/M5|M6False/M6|</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
