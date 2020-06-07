@@ -47,32 +47,7 @@
     'DYNAMIC MUSIC SYSTEM
     'If a track is already playing, don't override it (because then it makes the experience weird)
     Public Sub MusicChange(shrTrack As Short)
-        If Not shrActiveTrack = shrTrack And My.Settings.Sound = True Then
-            'Checks that 1. Track is not playing and 2. Sound is enabled
-            Select Case shrTrack
-                Case 1
-                    My.Computer.Audio.Play(My.Resources.Music_MainTheme, AudioPlayMode.BackgroundLoop)
-                Case 2
-                    My.Computer.Audio.Play(My.Resources.Music_SPlayerIntro, AudioPlayMode.BackgroundLoop)
-                Case 3
-                    My.Computer.Audio.Play(My.Resources.Music_Javelin, AudioPlayMode.BackgroundLoop)
-                Case 4
-                    My.Computer.Audio.Play(My.Resources.Music_Select, AudioPlayMode.BackgroundLoop)
-                Case 5
-                    My.Computer.Audio.Play(My.Resources.Music_ArenaCommander, AudioPlayMode.BackgroundLoop)
-                Case 6
-                    My.Computer.Audio.Play(My.Resources.Music_SQ42THEME, AudioPlayMode.BackgroundLoop)
-                Case 7
-                    My.Computer.Audio.Play(My.Resources.Music_Challenger, AudioPlayMode.BackgroundLoop)
-                Case 8
-                    My.Computer.Audio.Play(My.Resources.Music_MissionComplete, AudioPlayMode.BackgroundLoop)
-                Case 9
-                    My.Computer.Audio.Play(My.Resources.Music_Fail, AudioPlayMode.Background)
-                    'DON'T repeat this one
-            End Select
-
-            shrActiveTrack = shrTrack
-        End If
+        'Depreciated
     End Sub
 
 

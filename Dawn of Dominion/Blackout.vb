@@ -57,13 +57,6 @@ Public Class Blackout
             tmrFadeInOut.Stop()
 
             Me.Close()
-
-            If blnPlayMode = False Or (blnPlayMode = True And GameMode.shrTurns Mod 2 = 1) Then
-                'Quest system - 25% chance per turn
-                If Int(5 * Rnd()) = 0 Then
-                    GameMode.Quest(GameMode.shrTurns)
-                End If
-            End If
         End If
     End Sub
 

@@ -9,7 +9,7 @@ Public Class SPlayerIntro
     Dim blnQuickIntro As Boolean
     'In case the user needs to skip
 
-    Dim strLines() As String = New String(24) {"SURFACE OF Gliese 581g, TSUNDERAN PLANNUM, DUSK",
+    Dim strLines() As String = New String(24) {"SURFACE OF Gliese 581g, NILABASK PLANNUM, DUSK",
                                                "...",
                                                "Old Man: ???",
                                                "Old Man: Hello?",

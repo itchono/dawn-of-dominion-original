@@ -1,26 +1,27 @@
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.exe.config
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.exe
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.xml
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.pdb
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.exe
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.pdb
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.xml
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\bin\Debug\dje-NE\Dawn of Dominion.resources.dll
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Blackout.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Cutscene.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.DebugConsole.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.GameMode.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.GameReview.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.IntroSplash.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.MainMenu.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.MapSelect.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.MissionSelect.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Resources.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.SPlayerIntro.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Options.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Shop.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.StatsAchievements.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Tutorial.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.GameMode.dje-NE.resources
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.vbproj.GenerateResource.Cache
-C:\Users\Mingde\Documents\School\G10\ICS2O\VB Programming\Final Project\Dawn of Dominion v10 RC2 FINAL\Source\Dawn of Dominion\obj\Debug\dje-NE\Dawn of Dominion.resources.dll
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.exe.config
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.exe
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.pdb
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\bin\Debug\Dawn of Dominion.xml
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\bin\Debug\dje-NE\Dawn of Dominion.resources.dll
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Blackout.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Cutscene.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.DebugConsole.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.GameMode.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.GameReview.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.IntroSplash.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.MainMenu.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.MapSelect.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.MissionSelect.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Resources.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.SPlayerIntro.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Options.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Shop.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.StatsAchievements.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.Tutorial.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn_of_Dominion.GameMode.dje-NE.resources
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.vbproj.GenerateResource.cache
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.vbproj.CoreCompileInputs.cache
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\dje-NE\Dawn of Dominion.resources.dll
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.exe
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.xml
+D:\School\G10\ICS\VB Programming\Final Project\Release\Dawn of Dominion compact\Source\Dawn of Dominion\obj\Debug\Dawn of Dominion.pdb

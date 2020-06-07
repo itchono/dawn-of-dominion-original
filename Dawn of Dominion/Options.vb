@@ -22,10 +22,8 @@ Public Class Options
 
         'Detect existing settings
 
-        'Sound on/off
-        If My.Settings.Sound = True Then
-            cbxSound.Checked = True
-        End If
+        'Sound on/off (Depreciated)
+
 
         'Dev mode on/off
         If My.Settings.DevMode = True Then
@@ -116,7 +114,7 @@ Public Class Options
     End Sub
 
     'Sound Checkbox
-    Private Sub cbxSound_CheckedChanged(sender As Object, e As EventArgs) Handles cbxSound.CheckedChanged
+    Private Sub cbxSound_CheckedChanged(sender As Object, e As EventArgs)
         If blnCtlLock = True Then
             If sender.checked = True Then
                 My.Settings.Sound = True

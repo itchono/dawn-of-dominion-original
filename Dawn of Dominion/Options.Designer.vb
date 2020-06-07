@@ -24,7 +24,6 @@ Partial Class Options
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Options))
-        Me.cbxSound = New System.Windows.Forms.CheckBox()
         Me.cbxDevCheat = New System.Windows.Forms.CheckBox()
         Me.ttpDescription = New System.Windows.Forms.ToolTip(Me.components)
         Me.btnResetSave = New System.Windows.Forms.Button()
@@ -39,27 +38,14 @@ Partial Class Options
         CType(Me.nudFadeSpeed, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'cbxSound
-        '
-        Me.cbxSound.AutoSize = True
-        Me.cbxSound.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbxSound.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.cbxSound.Location = New System.Drawing.Point(34, 29)
-        Me.cbxSound.Name = "cbxSound"
-        Me.cbxSound.Size = New System.Drawing.Size(91, 25)
-        Me.cbxSound.TabIndex = 0
-        Me.cbxSound.Text = "Sound"
-        Me.ttpDescription.SetToolTip(Me.cbxSound, "Enable or Disable Sound.")
-        Me.cbxSound.UseVisualStyleBackColor = True
-        '
         'cbxDevCheat
         '
         Me.cbxDevCheat.AutoSize = True
         Me.cbxDevCheat.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxDevCheat.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.cbxDevCheat.Location = New System.Drawing.Point(34, 142)
+        Me.cbxDevCheat.Location = New System.Drawing.Point(34, 112)
         Me.cbxDevCheat.Name = "cbxDevCheat"
-        Me.cbxDevCheat.Size = New System.Drawing.Size(195, 25)
+        Me.cbxDevCheat.Size = New System.Drawing.Size(163, 24)
         Me.cbxDevCheat.TabIndex = 1
         Me.cbxDevCheat.Text = "Dev Testing Mode"
         Me.ttpDescription.SetToolTip(Me.cbxDevCheat, "Enables the devcheat option.")
@@ -74,7 +60,7 @@ Partial Class Options
         Me.btnResetSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnResetSave.Font = New System.Drawing.Font("Century Gothic", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnResetSave.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.btnResetSave.Location = New System.Drawing.Point(34, 189)
+        Me.btnResetSave.Location = New System.Drawing.Point(34, 162)
         Me.btnResetSave.Name = "btnResetSave"
         Me.btnResetSave.Size = New System.Drawing.Size(129, 37)
         Me.btnResetSave.TabIndex = 2
@@ -87,12 +73,12 @@ Partial Class Options
         Me.cbxAnimations.AutoSize = True
         Me.cbxAnimations.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxAnimations.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.cbxAnimations.Location = New System.Drawing.Point(34, 58)
+        Me.cbxAnimations.Location = New System.Drawing.Point(34, 28)
         Me.cbxAnimations.Name = "cbxAnimations"
-        Me.cbxAnimations.Size = New System.Drawing.Size(134, 25)
+        Me.cbxAnimations.Size = New System.Drawing.Size(110, 24)
         Me.cbxAnimations.TabIndex = 6
         Me.cbxAnimations.Text = "Animations"
-        Me.ttpDescription.SetToolTip(Me.cbxAnimations, "Enable or Disable animations in the game. Disabling will improve performance on s" & _
+        Me.ttpDescription.SetToolTip(Me.cbxAnimations, "Enable or Disable animations in the game. Disabling will improve performance on s" &
         "low systems.")
         Me.cbxAnimations.UseVisualStyleBackColor = True
         '
@@ -101,7 +87,7 @@ Partial Class Options
         Me.btnResetStats.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnResetStats.Font = New System.Drawing.Font("Century Gothic", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnResetStats.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.btnResetStats.Location = New System.Drawing.Point(180, 189)
+        Me.btnResetStats.Location = New System.Drawing.Point(180, 162)
         Me.btnResetStats.Name = "btnResetStats"
         Me.btnResetStats.Size = New System.Drawing.Size(129, 37)
         Me.btnResetStats.TabIndex = 16
@@ -125,7 +111,7 @@ Partial Class Options
         '
         Me.lblCredits.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCredits.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.lblCredits.Location = New System.Drawing.Point(30, 246)
+        Me.lblCredits.Location = New System.Drawing.Point(30, 224)
         Me.lblCredits.Name = "lblCredits"
         Me.lblCredits.Size = New System.Drawing.Size(288, 452)
         Me.lblCredits.TabIndex = 3
@@ -148,9 +134,9 @@ Partial Class Options
         Me.lblFadeSpdDisp.AutoSize = True
         Me.lblFadeSpdDisp.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFadeSpdDisp.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.lblFadeSpdDisp.Location = New System.Drawing.Point(30, 105)
+        Me.lblFadeSpdDisp.Location = New System.Drawing.Point(30, 75)
         Me.lblFadeSpdDisp.Name = "lblFadeSpdDisp"
-        Me.lblFadeSpdDisp.Size = New System.Drawing.Size(148, 21)
+        Me.lblFadeSpdDisp.Size = New System.Drawing.Size(123, 20)
         Me.lblFadeSpdDisp.TabIndex = 15
         Me.lblFadeSpdDisp.Text = "Fade Speed (%)"
         '
@@ -158,11 +144,11 @@ Partial Class Options
         '
         Me.nudFadeSpeed.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nudFadeSpeed.Increment = New Decimal(New Integer() {5, 0, 0, 0})
-        Me.nudFadeSpeed.Location = New System.Drawing.Point(159, 103)
+        Me.nudFadeSpeed.Location = New System.Drawing.Point(159, 73)
         Me.nudFadeSpeed.Maximum = New Decimal(New Integer() {250, 0, 0, 0})
         Me.nudFadeSpeed.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nudFadeSpeed.Name = "nudFadeSpeed"
-        Me.nudFadeSpeed.Size = New System.Drawing.Size(74, 30)
+        Me.nudFadeSpeed.Size = New System.Drawing.Size(74, 26)
         Me.nudFadeSpeed.TabIndex = 14
         Me.nudFadeSpeed.Value = New Decimal(New Integer() {100, 0, 0, 0})
         '
@@ -180,7 +166,6 @@ Partial Class Options
         Me.Controls.Add(Me.lblCredits)
         Me.Controls.Add(Me.btnResetSave)
         Me.Controls.Add(Me.cbxDevCheat)
-        Me.Controls.Add(Me.cbxSound)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Options"
@@ -192,7 +177,6 @@ Partial Class Options
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents cbxSound As System.Windows.Forms.CheckBox
     Friend WithEvents cbxDevCheat As System.Windows.Forms.CheckBox
     Friend WithEvents ttpDescription As System.Windows.Forms.ToolTip
     Friend WithEvents btnResetSave As System.Windows.Forms.Button

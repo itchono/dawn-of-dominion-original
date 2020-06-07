@@ -39,45 +39,11 @@ Public Class Cutscene
 
     Private Sub Cutscene_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Set initial state of form
-        rctBackGround.FillStyle = PowerPacks.FillStyle.Transparent
-        lblText.Visible = False
+        lblText.Visible = True
 
         btnNext.Enabled = False
-        shrSequenceTick = 0
-        tmrTransition.Start()
-    End Sub
-
-    Private Sub tmrTransition_Tick(sender As Object, e As EventArgs) Handles tmrTransition.Tick
-        'Make the rectangle "opacity" go up for a pseudo fadein effect
-
-        Select Case shrSequenceTick
-            'Nothing on first tick
-            Case 1
-                rctBackGround.FillStyle = PowerPacks.FillStyle.Percent10
-            Case 2
-                rctBackGround.FillStyle = PowerPacks.FillStyle.Percent20
-            Case 3
-                rctBackGround.FillStyle = PowerPacks.FillStyle.Percent30
-            Case 4
-                rctBackGround.FillStyle = PowerPacks.FillStyle.Percent40
-            Case 5
-                rctBackGround.FillStyle = PowerPacks.FillStyle.Percent50
-            Case 6
-                rctBackGround.FillStyle = PowerPacks.FillStyle.Percent60
-                tmrTransition.Stop()
-                lblText.Text = Nothing
-
-                lblText.Visible = True
-
-
-        End Select
-
-        If shrSequenceTick <> 6 Then
-            shrSequenceTick += 1
-        Else
-            tmrTextIn.Start()
-            shrSequenceTick = 1
-        End If
+        shrSequenceTick = 1
+        tmrTextIn.Start()
 
     End Sub
 

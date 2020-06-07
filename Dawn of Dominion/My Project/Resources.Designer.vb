@@ -22,7 +22,7 @@ Namespace My.Resources
     '''<summary>
     '''  A strongly-typed resource class, for looking up localized strings, etc.
     '''</summary>
-    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
@@ -207,87 +207,6 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("Graphic_WarScape3", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_ArenaCommander() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_ArenaCommander", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_Challenger() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_Challenger", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_Fail() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_Fail", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_Javelin() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_Javelin", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_MainTheme() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_MainTheme", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_MissionComplete() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_MissionComplete", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_Select() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_Select", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_SPlayerIntro() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_SPlayerIntro", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property Music_SQ42THEME() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("Music_SQ42THEME", resourceCulture)
             End Get
         End Property
         

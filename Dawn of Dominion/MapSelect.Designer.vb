@@ -48,7 +48,6 @@ Partial Class MapSelect
         Me.gbx2PlrAdvanced = New System.Windows.Forms.GroupBox()
         Me.lblStartingMoney = New System.Windows.Forms.Label()
         Me.nudStartCash = New System.Windows.Forms.NumericUpDown()
-        Me.cbxQuests = New System.Windows.Forms.CheckBox()
         Me.pnlMapPreview.SuspendLayout()
         Me.pnlRacePreview.SuspendLayout()
         CType(Me.pbxRacePassive, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,7 +62,7 @@ Partial Class MapSelect
         Me.lblDispTitle.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblDispTitle.Location = New System.Drawing.Point(289, 31)
         Me.lblDispTitle.Name = "lblDispTitle"
-        Me.lblDispTitle.Size = New System.Drawing.Size(898, 56)
+        Me.lblDispTitle.Size = New System.Drawing.Size(748, 47)
         Me.lblDispTitle.TabIndex = 0
         Me.lblDispTitle.Text = "Choose your race and battlegrounds!"
         '
@@ -74,7 +73,7 @@ Partial Class MapSelect
         Me.lblAskName.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblAskName.Location = New System.Drawing.Point(512, 103)
         Me.lblAskName.Name = "lblAskName"
-        Me.lblAskName.Size = New System.Drawing.Size(401, 30)
+        Me.lblAskName.Size = New System.Drawing.Size(326, 23)
         Me.lblAskName.TabIndex = 1
         Me.lblAskName.Text = "Player 2, it is your turn to choose!"
         '
@@ -136,7 +135,7 @@ Partial Class MapSelect
         Me.lblDispRaceTitle.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblDispRaceTitle.Location = New System.Drawing.Point(122, 238)
         Me.lblDispRaceTitle.Name = "lblDispRaceTitle"
-        Me.lblDispRaceTitle.Size = New System.Drawing.Size(85, 34)
+        Me.lblDispRaceTitle.Size = New System.Drawing.Size(72, 28)
         Me.lblDispRaceTitle.TabIndex = 6
         Me.lblDispRaceTitle.Text = "Race"
         '
@@ -149,7 +148,7 @@ Partial Class MapSelect
         Me.lblDispMapTitle.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblDispMapTitle.Location = New System.Drawing.Point(1125, 238)
         Me.lblDispMapTitle.Name = "lblDispMapTitle"
-        Me.lblDispMapTitle.Size = New System.Drawing.Size(76, 34)
+        Me.lblDispMapTitle.Size = New System.Drawing.Size(66, 28)
         Me.lblDispMapTitle.TabIndex = 7
         Me.lblDispMapTitle.Text = "Map"
         '
@@ -263,7 +262,7 @@ Partial Class MapSelect
         Me.lblNameQuery.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblNameQuery.Location = New System.Drawing.Point(423, 153)
         Me.lblNameQuery.Name = "lblNameQuery"
-        Me.lblNameQuery.Size = New System.Drawing.Size(94, 30)
+        Me.lblNameQuery.Size = New System.Drawing.Size(76, 23)
         Me.lblNameQuery.TabIndex = 19
         Me.lblNameQuery.Text = "Name:"
         '
@@ -273,7 +272,7 @@ Partial Class MapSelect
         Me.txtNameInput.Location = New System.Drawing.Point(524, 150)
         Me.txtNameInput.MaxLength = 20
         Me.txtNameInput.Name = "txtNameInput"
-        Me.txtNameInput.Size = New System.Drawing.Size(321, 37)
+        Me.txtNameInput.Size = New System.Drawing.Size(321, 32)
         Me.txtNameInput.TabIndex = 18
         '
         'lblInstructions
@@ -290,7 +289,7 @@ Partial Class MapSelect
         Me.lblInstructions.Padding = New System.Windows.Forms.Padding(10)
         Me.lblInstructions.Size = New System.Drawing.Size(206, 192)
         Me.lblInstructions.TabIndex = 20
-        Me.lblInstructions.Text = "Use the arrows on either side to select your map and race of choice. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Then, lo" & _
+        Me.lblInstructions.Text = "Use the arrows on either side to select your map and race of choice. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Then, lo" &
     "ck it in" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "below." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.lblInstructions.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -298,7 +297,6 @@ Partial Class MapSelect
         '
         Me.gbx2PlrAdvanced.Controls.Add(Me.lblStartingMoney)
         Me.gbx2PlrAdvanced.Controls.Add(Me.nudStartCash)
-        Me.gbx2PlrAdvanced.Controls.Add(Me.cbxQuests)
         Me.gbx2PlrAdvanced.Font = New System.Drawing.Font("Century Gothic", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gbx2PlrAdvanced.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.gbx2PlrAdvanced.Location = New System.Drawing.Point(45, 71)
@@ -324,22 +322,10 @@ Partial Class MapSelect
         Me.nudStartCash.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.nudStartCash.Minimum = New Decimal(New Integer() {1000, 0, 0, 0})
         Me.nudStartCash.Name = "nudStartCash"
-        Me.nudStartCash.Size = New System.Drawing.Size(79, 33)
+        Me.nudStartCash.Size = New System.Drawing.Size(79, 28)
         Me.nudStartCash.TabIndex = 1
         Me.nudStartCash.ThousandsSeparator = True
         Me.nudStartCash.Value = New Decimal(New Integer() {3000, 0, 0, 0})
-        '
-        'cbxQuests
-        '
-        Me.cbxQuests.AutoSize = True
-        Me.cbxQuests.Checked = True
-        Me.cbxQuests.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.cbxQuests.Location = New System.Drawing.Point(24, 27)
-        Me.cbxQuests.Name = "cbxQuests"
-        Me.cbxQuests.Size = New System.Drawing.Size(104, 28)
-        Me.cbxQuests.TabIndex = 0
-        Me.cbxQuests.Text = "Quests"
-        Me.cbxQuests.UseVisualStyleBackColor = True
         '
         'MapSelect
         '
@@ -372,7 +358,6 @@ Partial Class MapSelect
         Me.pnlRacePreview.ResumeLayout(False)
         CType(Me.pbxRacePassive, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbx2PlrAdvanced.ResumeLayout(False)
-        Me.gbx2PlrAdvanced.PerformLayout()
         CType(Me.nudStartCash, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -400,7 +385,6 @@ Partial Class MapSelect
     Friend WithEvents txtNameInput As System.Windows.Forms.TextBox
     Friend WithEvents lblInstructions As System.Windows.Forms.Label
     Friend WithEvents gbx2PlrAdvanced As System.Windows.Forms.GroupBox
-    Friend WithEvents cbxQuests As System.Windows.Forms.CheckBox
     Friend WithEvents lblStartingMoney As System.Windows.Forms.Label
     Friend WithEvents nudStartCash As System.Windows.Forms.NumericUpDown
 End Class

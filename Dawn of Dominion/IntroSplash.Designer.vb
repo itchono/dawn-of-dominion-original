@@ -38,7 +38,7 @@ Partial Class IntroSplash
         Me.lblAuthor.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblAuthor.Location = New System.Drawing.Point(12, 105)
         Me.lblAuthor.Name = "lblAuthor"
-        Me.lblAuthor.Size = New System.Drawing.Size(287, 28)
+        Me.lblAuthor.Size = New System.Drawing.Size(233, 23)
         Me.lblAuthor.TabIndex = 0
         Me.lblAuthor.Text = "A game by Mingde Yin"
         '
@@ -52,7 +52,7 @@ Partial Class IntroSplash
         Me.lblCourseCode.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblCourseCode.Location = New System.Drawing.Point(12, 268)
         Me.lblCourseCode.Name = "lblCourseCode"
-        Me.lblCourseCode.Size = New System.Drawing.Size(212, 30)
+        Me.lblCourseCode.Size = New System.Drawing.Size(177, 23)
         Me.lblCourseCode.TabIndex = 1
         Me.lblCourseCode.Text = "ICS2O-02 2016-17"
         '
@@ -65,9 +65,9 @@ Partial Class IntroSplash
         Me.lblBldVersion.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblBldVersion.Location = New System.Drawing.Point(12, 141)
         Me.lblBldVersion.Name = "lblBldVersion"
-        Me.lblBldVersion.Size = New System.Drawing.Size(268, 150)
+        Me.lblBldVersion.Size = New System.Drawing.Size(179, 115)
         Me.lblBldVersion.TabIndex = 2
-        Me.lblBldVersion.Text = "2017/06/12" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Version 1.0 RC3 Hotfix" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.lblBldVersion.Text = "2020/06/07" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Public Re-release" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'tmrFade
         '
@@ -86,7 +86,7 @@ Partial Class IntroSplash
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "IntroSplash"
-        Me.Opacity = 0.0R
+        Me.Opacity = 0R
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "IntroSplash"
         Me.ResumeLayout(False)

@@ -20,12 +20,10 @@ Partial Class Cutscene
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Cutscene))
-        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.rctBackGround = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.tmrTransition = New System.Windows.Forms.Timer(Me.components)
         Me.tmrTextIn = New System.Windows.Forms.Timer(Me.components)
         Me.btnNext = New System.Windows.Forms.Button()
@@ -35,20 +33,9 @@ Partial Class Cutscene
         '
         'ShapeContainer1
         '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.rctBackGround})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(1280, 720)
-        Me.ShapeContainer1.TabIndex = 0
-        Me.ShapeContainer1.TabStop = False
         '
         'rctBackGround
         '
-        Me.rctBackGround.FillColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(42, Byte), Integer))
-        Me.rctBackGround.Location = New System.Drawing.Point(-1, -1)
-        Me.rctBackGround.Name = "rctBackGround"
-        Me.rctBackGround.Size = New System.Drawing.Size(1279, 720)
         '
         'tmrTransition
         '
@@ -108,7 +95,6 @@ Partial Class Cutscene
         Me.Controls.Add(Me.btnSkip)
         Me.Controls.Add(Me.lblText)
         Me.Controls.Add(Me.btnNext)
-        Me.Controls.Add(Me.ShapeContainer1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Cutscene"
@@ -118,8 +104,6 @@ Partial Class Cutscene
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
-    Friend WithEvents rctBackGround As Microsoft.VisualBasic.PowerPacks.RectangleShape
     Friend WithEvents tmrTransition As System.Windows.Forms.Timer
     Friend WithEvents tmrTextIn As System.Windows.Forms.Timer
     Friend WithEvents btnNext As System.Windows.Forms.Button

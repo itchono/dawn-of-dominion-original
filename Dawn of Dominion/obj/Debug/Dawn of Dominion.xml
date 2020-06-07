@@ -1,0 +1,146 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Dawn of Dominion
+</name>
+</assembly>
+<members>
+<member name="T:Dawn_of_Dominion.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Anim_GlieseNow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Anim_GliesePast">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_HeatSig">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_Illuminated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_LandScape">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_LandScapeMan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_Lock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_ShotMiss">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_StaticGlieseNow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_StaticGliesePast">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_SunFullSet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_Title">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_WarScape1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_WarScape2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Graphic_WarScape3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Dawn_of_Dominion.My.Resources.Resources.Tutorial8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
